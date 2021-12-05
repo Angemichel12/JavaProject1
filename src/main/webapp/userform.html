@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/font-awesome.min.css">
+     <link rel="stylesheet" href="css/aos.css">
+
+     <!-- MAIN CSS -->
+     <link rel="stylesheet" href="css/tooplate-gymso-style.css">
+</head>
+<body>
+<button type="button" class="btn btn-primary"><a href="viewusers.jsp">View All Records</a></button>
+<br>
+  
+ 
+      <div class="modal-dialog">
+
+        <div class="modal-content">
+          <div class="modal-header">
+
+            <h2 class="modal-title" id="membershipFormLabel">Add new user</h2>
+          </div>
+
+          <div class="modal-body">
+            <form class="membership-form webform" role="form" action="adduser.jsp" method="post">
+                <input type="text" class="form-control" name="fullname" placeholder="Ex: Michel Nasri">
+
+                <input type="text" class="form-control" name="username" placeholder="ex: ange@gmail.com">
+
+                <input type="date" class="form-control" name="age" required>
+                    <input type="text" class="form-control" name="country" placeholder="Ex: Rwanda">
+                        <input type="password" class="form-control" name="password" placeholder="Ex: user123">
+                
+
+                <button type="submit" class="form-control btn btn-success" id="submit-button">Register</button>
+            </form>
+          </div>
+
+</body>
+</html>
